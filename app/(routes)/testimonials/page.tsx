@@ -15,7 +15,7 @@ const TestimonialsPage = () => {
         <>
             <TransitionPage />
             <CoverParticles/>
-            <div className='flex flex-col justify-center h-lvh'>
+            <div className='flex flex-col justify-center h-lvh mt-60 md:mt-10'>
                 <CircleImage />
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     Customer<span className="block font-bold text-secondary"> Reviews</span>

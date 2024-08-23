@@ -10,10 +10,10 @@ const ServicesPage = () => {
             <TransitionPage />
             <CircleImage />
             <CoverParticles />
-            <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2">
-                <div className="max-w-[450px] mt-40 md:mt-0">
+            <div className="mt-40 md:mt-10 grid items-center justify-center p-6 py-20 h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2">
+                <div className="max-w-[450px]">
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
-                        My 
+                        My {' '}
                         <span className="font-bold text-secondary">
                             services.
                         </span>
@@ -26,7 +26,7 @@ const ServicesPage = () => {
                         experience in JAVA, C#, and Git/GitHub, which allows me to manage projects efficiently and
                         collaborate effectively in development teams.
                     </p>
-                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">contact me</button>
+                    <a href="https://wa.me/qr/GL5TZ6KJB56KP1" className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">contact me</a>
                 </div>
 
                 {/* SLIDER */}

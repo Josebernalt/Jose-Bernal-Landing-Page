@@ -17,7 +17,7 @@ const PortfolioPage = () => {
             <TransitionPage />
             <CircleImage />
             <CoverParticles/>
-            <div className="flex flex-col justify-center h-full">
+            <div className="flex flex-col justify-center h-full mt-60 md:mt-10">
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">My latest <span className="font-bold text-secondary">works done</span></h1>
 
                 <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-2 md:grid-cols-2">
